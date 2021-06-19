@@ -6,8 +6,8 @@
 }
 
 .headerC {
-  background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
 }
 
 .header__link {
@@ -20,6 +20,7 @@
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
+  color: white;
 }
 
 .header__lineOne {
@@ -28,4 +29,9 @@
 
 .header__lineTwo {
   font-size: 15px;
+}
+
+.logo {
+  margin: 10px;
+  color: white;
 }

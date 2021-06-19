@@ -8,15 +8,25 @@ function Header2() {
     <div className="headerC">
       <Navbar collapseOnSelect expand="lg">
         <Container>
-          <Image src={logo}></Image>
-          <Navbar.Brand href="#home">MTD Bank</Navbar.Brand>
+          <i className="fab fa-typo3 logo" />
+          <Navbar.Brand href="#home" className="text-light">
+            MTD Bank
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#features">About Us</Nav.Link>
-              <Nav.Link href="#pricing">Product</Nav.Link>
-              <Nav.Link href="#pricing">Package</Nav.Link>
-              <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav className="me-auto ">
+              <Nav.Link href="#features" className="text-light">
+                About Us
+              </Nav.Link>
+              <Nav.Link href="#pricing" className="text-light">
+                Product
+              </Nav.Link>
+              <Nav.Link href="#pricing" className="text-light">
+                Package
+              </Nav.Link>
+              <Nav.Link href="#pricing" className="text-light">
+                Contact
+              </Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link href="/signIn">
