@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header2 from "./header/Header2";
 import Home from "./home/Home";
-import Footer from "./footer/Footer";
+import Footer2 from "./footer/Footer2";
 import About from "./about/About";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
             <About />
           </Route>
         </Switch>
-        <Footer />
+        <Footer2 />
       </Router>
     </div>
   );
